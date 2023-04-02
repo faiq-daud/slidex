@@ -9,5 +9,5 @@ Run `ng start` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Login
 
 To use existing user for login 
-## Emai: faiq1223@gmail.com
-## Password: developer@slidex
+# Emai: faiq1223@gmail.com
+# Password: developer@slidex
