@@ -1,0 +1,74 @@
+input {
+  padding-left: 32px;
+}
+
+.input-icons {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  background: none;
+  height: 5vh;
+}
+
+.forget-password-div {
+  display: flex;
+  justify-content: flex-end;
+  a {
+    color: white;
+  }
+}
+
+.blue-color {
+  color: #084EA4;
+}
+
+.white-color {
+  color: white;
+}
+
+.social-connects {
+  button {
+    border: 1px solid white;
+  }
+
+  button:hover {
+    background-color: #084EA4;
+  }
+
+  i {
+    position: absolute;
+    left: 5px;
+  }
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.or {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+ 
+hr {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  margin: 0;
+}
+
+.bg-blue-color {
+  background-color: #084EA4;
+  border: 1px solid #084EA4;
+}
+
+.cursor {
+  cursor: pointer;
+}

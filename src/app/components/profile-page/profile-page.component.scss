@@ -1,0 +1,77 @@
+.round-image {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  bottom: -6.5vh;
+}
+
+.banner-image {
+  height: 200px; 
+  width: 100%;
+  position: relative;
+}
+
+.banner-bg {
+  background-color: #084EA4;
+}
+
+.m-r-2 {
+  margin-right: 2px;
+}
+
+.m-l-3 {
+  margin-left: 3px;
+}
+
+.cursor {
+  div {
+    cursor: pointer;
+  }
+}
+
+.email {
+  position: absolute;
+  left: 19px;
+} 
+
+.phone {
+  position: absolute;
+  left: 18px;
+}
+
+.website {
+  position: absolute;
+  left: 18px;
+}
+.joined {
+  position: absolute;
+  left: 18px;
+}
+
+hr {
+  flex-grow: 1;
+  height: 2px;
+  background-color: white;
+  border: none;
+  margin: 0;
+  margin-left: 4px;
+}
+
+.go-red {
+  background-color: red;
+  border-radius: 5px;
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 768px) {
+  .banner-image {
+    height: 400px; 
+  }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+  .banner-image {
+    height: 100px; 
+  }
+}

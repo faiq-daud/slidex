@@ -1,0 +1,42 @@
+.blue-color {
+  color:#084EA4;;
+}
+
+.white-color {
+  color: white;
+}
+
+input {
+  padding-left: 32px;
+}
+
+.input-icons {
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  background: none;
+  height: 5vh;
+}
+
+.bg-blue-color {
+  background-color: #084EA4;
+  border: 1px solid #084EA4;
+}
+
+.social-connects {
+  button {
+    border: 1px solid white;
+  }
+
+  button:hover {
+    background-color: #084EA4;
+  }
+
+  i {
+    position: absolute;
+    left: 5px;
+  }
+}
